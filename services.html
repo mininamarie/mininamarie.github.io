@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Final Project</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/8d63f9512f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="beforeafter.html">BEFORE/AFTER</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Services</h1>
+</section>
+
+<!-- Services -->
+<section class="services">
+  <h1>Services We Offer</h1>
+  <p>We are glad to offer you our professional service in air conditioning, air exchanger and dryer duct cleaning.</p>
+
+<div class="row">
+  <div class="services-col">
+    <h3>Air Conditioning Cleaning</h3>
+    <p>-Wall unit cleaning (Heat pump): $199.99<br>-Ceiling air conditioner cleaning: $299.99<br>-Air conditioning cleaning for motor vehicles: $179.99</p>
+</div>
+<div class="services-col">
+  <h3>Air Exchanger Cleaning</h3>
+  <p>- Air exchanger cleaning (Replace of all filters from ducts and of the core): $349.99</p>
+</div>
+<div class="services-col">
+  <h3>Dryer Duct Cleaning</h3>
+  <p>- Dryer duct cleaning: $119.99</p>
+</div>
+</div>
+
+</section>
+
+<!-- Why it's important to clean AC?  -->
+<section class="acimportance">
+  <h1>Why do you need to clean AC?</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum sit optio, est. Pariatur eveniet nihil voluptate assumenda error maxime, laboriosam esse perferendis, et, porro neque odit id dolorum ipsam tenetur!</p>
+  <div class="row">
+    <div class="acimportance-col">
+    <img src="images/nettac.jpg">
+    <h3>Optimal performance of your device</h3>
+    <p>If you feel that your device work as not as efficient as before and making weird noise, you should call our specialists for deep cleaning, that will solve your problem.</p>
+  </div>
+  <div class="acimportance-col">
+  <img src="images/savepl.jpg">
+  <h3>Saving energy and cost</h3>
+  <p>Cleaning AC is a good investment for saving energy and money.</p>
+</div>
+<div class="acimportance-col">
+<img src="images/healthyair.jpeg">
+<h3>Clean and healthy air</h3>
+<p>It helps to eliminate harmful bacterias and prevent mold.</p>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Our company is operating since 2020. Our aim is to provide excellent service and make our clients satisfied.</p>
+  <div class="icons">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+  </div>
+  <p>Made with <i class="fas fa-heart">for the best HTML course</i></p>
+</section>
+
+
+
+
+
+
+
+
+
+<!---Java Script For Toggle Menu---------->
+<script>
+
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+  navLinks.style.right = "0";
+}
+function hideMenu(){
+  navLinks.style.right = "-200px";
+}
+
+</script>
+
+</body>
+</html>
